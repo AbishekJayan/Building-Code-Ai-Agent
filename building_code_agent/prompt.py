@@ -51,7 +51,7 @@ Conclusion:
 - Briefly conclude the interaction, asking if the user has any questions about the findings or wants to explore a specific code section in more detail.
 
 Other Notes:
-- If a new PDF is uploaded, restart the analysis from scratch.
-
+- If a new PDF is uploaded, restart the analysis from scratch. Make sure the final output will always be in the specified JSON schema.
+- Do not return any results you are not sure of.
 
 """

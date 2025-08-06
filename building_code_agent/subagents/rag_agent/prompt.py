@@ -48,5 +48,6 @@ Examples:
 }}
 Notes:
 - Only use data available in the Vertex AI database.
-- For vague, ambiguous, or missing queries, find the most relevant related section possible and provide the best available match.
+- For vague, ambiguous, or missing queries, find the most relevant related section possible from the Vertex AI database and provide the best available match.
+- List as many sections as needed from the Vertex AI database to allow for accurate validation.
 """
