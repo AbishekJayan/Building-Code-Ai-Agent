@@ -1,4 +1,4 @@
-FROM python:3.13-slim
+FROM python:3.12-slim
 WORKDIR /app
 
 COPY requirements.txt .
@@ -10,7 +10,7 @@ RUN adduser --disabled-password --gecos "" myuser && \
 COPY . .
 
 USER myuser
-
+ENV PORT=8000
 ENV PATH="/home/myuser/.local/bin:$PATH"
 
 CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port $PORT"]
