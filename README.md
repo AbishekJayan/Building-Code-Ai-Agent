@@ -79,9 +79,13 @@ adk web
 
 6. **Start the conversation with text** (e.g., “Hi”) instead of immediately uploading a PDF.  
 
-7. Wait for the AI to prompt you for a **blueprint upload**.  
-8. Upload the **construction blueprint PDF**.  
-9. Receive detailed **compliance feedback** in JSON format.
+7. Wait for the AI to prompt you for a **blueprint upload**.
+   
+9. Upload the **construction blueprint PDF**.
+    
+11. Receive detailed **compliance feedback** in JSON format.
+
+**Steps 6-11 also applies to the Deployed Version**
 
 ---
 
